@@ -39,7 +39,7 @@ echo Apple pie  | git hash-object --stdin -w
 
 ### content tracker 
 - create project 
-![Alt text](image-1.png)
+![Alt text](images/image-1.png)
 
 - open .git/objects it is empty of persistence content 
 - to track changes use git add it will add changes to the staging area
@@ -102,7 +102,7 @@ so when you checkout to a real brach the garabge collector will remove thus comm
 
 
 # Git rebase
-- ![Alt text](image-2.png)
+- ![Alt text](images/image-2.png)
 ``` bash
 git branch 
 # * main
@@ -111,12 +111,12 @@ git rebase a-branch
 ```
 what happes?
 - when you rebase git get coppies of the a-branch 's commits from last commit to the commit previous the shared commit with main
-![Alt text](image-4.png)
+![Alt text](images/image-4.png)
 - if you look the a-branch old commit are not refrenced with any branch
 - according to git rules all object that not refrenced The GC will remove it at some point of time
 
 ### Rebase VS Merge
-![Alt text](image-5.png)
+![Alt text](images/image-5.png)
 
 ##### merge
 - Merge represent hoitory exactly as it happed
@@ -135,7 +135,7 @@ When it doubt just merge
 ## Tags
 tags located in ./git/refs/tags
 
-![Alt text](image-6.png)
+![Alt text](images/image-6.png)
 
 - annotated tag : create an brnanch like object that point to a tag object that point to a commit
 - lightwight tag : just a lable it dosent need object cause it dosen't has metadata 
