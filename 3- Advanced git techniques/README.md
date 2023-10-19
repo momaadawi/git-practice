@@ -1,10 +1,10 @@
 # Advanced Git Techniques
 ## Configuraion Git
-![Alt text](image.png)
+![Alt text](images/image.png)
 
-![Alt text](image-1.png)
+![Alt text](images/image-1.png)
 
-![Alt text](image-2.png)
+![Alt text](images/image-2.png)
 
 ##### Commands
 ```bash
@@ -71,7 +71,7 @@ git mergetool
 
 ### Git Attributes
 * 1 - Add .gitattributes file for new repository
-* 2 - implement exif tool(tool to manipulate images audio and videos..) diffs for image files
+* 2 - implement exif tool(tool to manipulate images/images audio and videos..) diffs for images/image files
 * 3 - execluding files form realease packages on github
 * 4 - adding a clean and smudge filter to hide secret values in repository
 
@@ -81,7 +81,7 @@ git mergetool
     https://exiftool.org/install.html#Windows
 
     git config --global diff.exif.textconv exiftool
-    # whenever change happens to image use
+    # whenever change happens to images/image use
     git diff
 
 # 3
@@ -101,15 +101,15 @@ git config --local filter.updateAPIKey.clean 'sed "s/a123/{SECURE_API_KEY}/"'
 ```
 
 ## Utilizing git submodules
-![Alt text](image-3.png)
+![Alt text](images/image-3.png)
 
-![Alt text](image-4.png)
+![Alt text](images/image-4.png)
 
-![Alt text](image-5.png)
+![Alt text](images/image-5.png)
 
-![Alt text](image-6.png)
+![Alt text](images/image-6.png)
 
-![Alt text](image-7.png)
+![Alt text](images/image-7.png)
 
 #### Adding submodule to a project(not important)
 ```bash
@@ -130,26 +130,26 @@ git submoule foreach 'cat .gitmodules'
 ```
 
 ## Implementing a Git Workflow
-![Alt text](image-8.png)
+![Alt text](images/image-8.png)
 
-![Alt text](image-9.png)
+![Alt text](images/image-9.png)
 
-![Alt text](image-10.png)
+![Alt text](images/image-10.png)
 >
 post usually used for notification
 >
 
 #### Client-side git Hooks
-![Alt text](image-11.png)
+![Alt text](images/image-11.png)
 
 ##### Use cases
-![Alt text](image-12.png)
+![Alt text](images/image-12.png)
 
 #### Server-side git hooks
-![Alt text](image-13.png)
+![Alt text](images/image-13.png)
 
 ##### Use cases
-![Alt text](image-14.png)
+![Alt text](images/image-14.png)
 
 #### Implementing CLient-side Hooks
 to view .git directory in vs code
@@ -162,12 +162,12 @@ to simulate remote server use
 git clone --bare <repo-url> <output folder>  
 
 ## Finding Bugs with git
-![Alt text](image-15.png)
+![Alt text](images/image-15.png)
 
-![Alt text](image-16.png)
+![Alt text](images/image-16.png)
 
-![Alt text](image-17.png)
+![Alt text](images/image-17.png)
 
-![Alt text](image-18.png)
+![Alt text](images/image-18.png)
 
-![Alt text](image-19.png)
+![Alt text](images/image-19.png)
