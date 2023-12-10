@@ -1,5 +1,5 @@
 # The Four Areas
-![Alt text](./images/image.png)
+![Alt text](././images/images/./images/image.png)
 
 - the index area is also called stage area located in .git/index
 - repository is located in .git/objects
@@ -147,7 +147,7 @@ git revert <commit id>
 ## git workflow
 [git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
 
-![Alt text](image-1.png)
+![Alt text](./images/image-1.png)
   
 ### distributed model
 - peer to peer
@@ -156,12 +156,12 @@ git revert <commit id>
 - Dictator and lieutenants model
 
 ### Branching Model
-![Alt text](image-2.png)
+![Alt text](./images/image-2.png)
 
-![Alt text](image-3.png)
+![Alt text](./images/image-3.png)
 
 ### Constraints
-![Alt text](image-4.png)
+![Alt text](./images/image-4.png)
 
 ## git workflow
-![Alt text](image-5.png)
+![Alt text](./images/image-5.png)
