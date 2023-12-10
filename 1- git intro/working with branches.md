@@ -30,17 +30,17 @@ git merge fog
 
 ## diff
 
-![Alt text](image-8.png)
+![Alt text](./images/image-8.png)
 
 ## remote 
-![Alt text](image-9.png)
+![Alt text](./images/image-9.png)
 
-![Alt text](image-10.png)
+![Alt text](./images/image-10.png)
 
 ## Ignore file
 https://github.com/github/gitignore
 
-![Alt text](image-11.png)
+![Alt text](./images/image-11.png)
 
 ## Rebase
 do not use rebase in a public branch. you always is going to cuase confusion
@@ -50,15 +50,15 @@ do not use rebase in a public branch. you always is going to cuase confusion
 - squash commits b
 
 #### squash
-![Alt text](image-12.png)
+![Alt text](./images/image-12.png)
 
 #### rebase from main
 
 ##### senario if other developer rebase master
-![Alt text](image-13.png)
+![Alt text](./images/image-13.png)
 
 #### using cherry pick
 making a copy of a commit in a different branch with a new parent in the branch you are picking into
 
-![Alt text](image-14.png)
+![Alt text](./images/image-14.png)
 
