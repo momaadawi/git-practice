@@ -1,5 +1,5 @@
 # The Four Areas
-![Alt text](././images/images/./images/image.png)
+![Alt text](./images/image.png)
 
 - the index area is also called stage area located in .git/index
 - repository is located in .git/objects
